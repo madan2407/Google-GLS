@@ -12,6 +12,12 @@ var loadCSS = function(url) {
 	$('head').append(link);
 };
 
+var loadStyle = function(css) {
+	var style = $('<style></style>');	
+	style.append(css);
+	$('head').append(style);
+}
+
 loadScript("https://code.jquery.com/jquery-3.5.1.min.js");
 loadCSS("https://guidedlearning.oracle.com/player/latest/static/css/stTip.css");
 
