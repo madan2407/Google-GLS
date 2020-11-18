@@ -11,3 +11,6 @@ var loadCSS = function(url) {
 	link.href = url;
 	$('head').append(link);
 };
+
+loadScript("https://code.jquery.com/jquery-3.5.1.min.js");
+loadCSS("https://guidedlearning.oracle.com/player/latest/static/css/stTip.css");
